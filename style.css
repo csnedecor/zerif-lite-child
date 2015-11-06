@@ -9,3 +9,66 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  zerif-lite-child
 */
+
+h1, h2{
+  font-family: 'Alegreya', 'serif';
+}
+h3{
+  font-family: 'Roboto Condensed', 'sans-serif';
+}
+.focus-box h3{
+  color: #424031;
+}
+p{
+  font-family: 'Roboto', 'sans-serif';
+}
+/*Logo colors: #669910, #424031 */
+.green-btn{
+  background-color: #669910;
+}
+.red-btn{
+  background-color: #881122;
+}
+.green-btn:hover{
+  background-color: #83b538;
+}
+.red-btn:hover{
+  background-color: #A80018;
+}
+.dark-text{
+  color: #424031;
+}
+.section-header .section-legend{
+  color: #a09e92;
+}
+.focus-box p{
+  color: #a09e92;
+}
+.focus-box .service-icon{
+  border: 10px solid #e2e3e7;
+}
+.focus-box:nth-child(4n+1) .service-icon:hover{
+  border: 10px solid #79B2F2;
+  /*8EA9C7*/
+}
+.focus-box:nth-child(4n+1) .red-border-bottom::before{
+  background: #79B2F2;
+}
+.focus-box:nth-child(4n+2) .service-icon:hover{
+  border: 10px solid #669910;
+}
+.focus-box:nth-child(4n+2) .red-border-bottom::before{
+  background: #669910;
+}
+.focus-box:nth-child(4n+3) .service-icon:hover{
+  border: 10px solid #A80018;
+}
+.focus-box:nth-child(4n+3) .red-border-bottom::before{
+  background: #A80018;
+}
+.focus-box:nth-child(4n+4) .service-icon:hover{
+  border: 10px solid #A679F2;
+}
+.focus-box:nth-child(4n+4) .red-border-bottom::before{
+  background: #A679F2;
+}
