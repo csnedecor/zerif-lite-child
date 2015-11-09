@@ -296,7 +296,7 @@ jQuery(function() {
 
         'inputColor':' #FFFFFF ',
 
-        'bgColor':' #222222 ',
+        'bgColor':' #241e0e ',
 
         'fgColor':' #A80018 '
 
@@ -312,7 +312,7 @@ jQuery(function() {
 
         'inputColor':' #FFFFFF ',
 
-        'bgColor':' #222222 ',
+        'bgColor':' #241e0e ',
 
         'fgColor':' #A679F2 '
 
@@ -328,7 +328,7 @@ jQuery(function() {
 
         'inputColor':' #FFFFFF ',
 
-        'bgColor':' #222222 ',
+        'bgColor':' #241e0e ',
 
         'fgColor':' #79B2F2 '
 
@@ -344,7 +344,7 @@ jQuery(function() {
 
         'inputColor':' #FFFFFF ',
 
-        'bgColor':' #222222 ',
+        'bgColor':' #241e0e ',
 
         'fgColor':' #669910 '
 

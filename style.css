@@ -10,19 +10,59 @@
  Text Domain:  zerif-lite-child
 */
 
+/*Logo colors: #669910, #424031 */
+
+/*=========================================*/
+/* General */
+/*=========================================*/
+::selection{
+  background: #669910;
+}
 h1, h2{
   font-family: 'Alegreya', 'serif';
 }
 h3{
   font-family: 'Roboto Condensed', 'sans-serif';
 }
-.focus-box h3{
-  color: #424031;
-}
 p{
   font-family: 'Roboto', 'sans-serif';
 }
-/*Logo colors: #669910, #424031 */
+a{
+  color: #669910;
+}
+a:visited{
+  color: #79B2F2;
+}
+a:hover, a:focus, a:active{
+  color: #adcd81;
+}
+.dark-text{
+  color: #424031;
+}
+.section-header .section-legend{
+  color: #a09e92;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+  background-color: #881122;
+}
+/*================================================*/
+/*Nav-Bar*/
+/*===============================================*/
+.navbar-inverse .navbar-nav>li>a{
+  color: #424031;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #669910;
+}
+li.current > a::before{
+  background: #669910;
+}
+.navbar-inverse .navbar-nav>li.current>a{
+  color: #669910;
+}
+/*=============================================*/
+/* Intro */
+/*=============================================*/
 .green-btn{
   background-color: #669910;
 }
@@ -35,12 +75,9 @@ p{
 .red-btn:hover{
   background-color: #A80018;
 }
-.dark-text{
-  color: #424031;
-}
-.section-header .section-legend{
-  color: #a09e92;
-}
+/*====================================*/
+/* Services/Focus */
+/*====================================*/
 .focus-box p{
   color: #a09e92;
 }
@@ -71,4 +108,146 @@ p{
 }
 .focus-box:nth-child(4n+4) .red-border-bottom::before{
   background: #A679F2;
+}
+.focus-box h3{
+  color: #424031;
+}
+/*=====================================*/
+/* About Me */
+/*=====================================*/
+.about-us{
+  background: #424031;
+}
+.about-us p{
+  color: #c7c3b7;
+}
+.skills .skill p{
+  color: #c7c3b7;
+}
+.lightest-brown-text{
+  color: #c7c3b7;
+}
+/*===============================================*/
+/* Portfolio/Team Box */
+/*===============================================*/
+.team-member h3{
+  color: #424031;
+}
+.position{
+  color: #424031;
+}
+.team-member .details{
+  height: 235px;
+}
+.team-member:hover .details{
+  background: #424031;
+}
+.team-member .profile-pic{
+  border-radius: 0;
+}
+.team-member .profile-pic{
+  width: auto;
+  height: auto;
+}
+.team-member .profile-pic img{
+  height: auto;
+}
+.col-lg-3.col-sm-3.team-box{
+  width: 50%;
+}
+.our-team .row > div:nth-child(4n+1) .red-border-bottom::before{
+  background: #A80018;
+}
+.our-team .row > div:nth-child(4n+2) .red-border-bottom::before{
+  background: #A679F2;
+}
+.our-team .row > div:nth-child(4n+3) .red-border-bottom::before{
+  background: #79B2F2;
+}
+.our-team .row > div:nth-child(4n+4) .red-border-bottom::before{
+  background: #669910;
+}
+.separator-one{
+  background: rgba(136, 17, 34, 0.8);
+}
+/*===========================================*/
+/*Top Ribbon*/
+/*===========================================*/
+.separator-one .green-btn{
+  background: #669910;
+}
+.separator-one .green-btn:hover{
+  background: #83b538;
+}
+/*============================================*/
+/*Bottom Ribbon*/
+/*============================================*/
+.purchase-now{
+  background: #669910;
+}
+a.btn.btn-primary.custom-button.red-btn:hover{
+  background: #881122;
+}
+a.btn.btn-primary.custom-button.red-btn{
+  background: #A80018;
+}
+/*===========================================*/
+/* Testimonials */
+/*===========================================*/
+.testimonial{
+  background: #575338;
+}
+.feedback-box .client-info .client-name{
+  color: #424031;
+}
+.feedback-box .client-info .client-company{
+  color: #424031;
+}
+.feedback-box .message{
+  color: #7b775e;
+}
+/*============================================*/
+/* Contact Us */
+/*============================================*/
+.pirate_forms .pirate-forms-submit-button:hover{
+  background-color: #A80018;
+}
+.pirate_forms_error_box p{
+  background: #881122;
+}
+.pirate_forms_thankyou_wrap p{
+  background: #669910;
+}
+.contact-us{
+  background: rgba(66, 64, 49, 0.5);
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea{
+  color: #424031;
+  border: 1px solid rgba(66, 64, 49, 0.1);
+}
+/*==============================================*/
+/* Footer */
+/*==============================================*/
+#footer{
+  background: #424031;
+}
+.copyright{
+  background: #424031;
+}
+.social li a{
+  color: #669910;
+}
+.social li a:hover{
+  color: #83b538;
+}
+.fa{
+  font-size: 34px;
+}
+/*===========================================*/
+/* Responsive Styles */
+/*=============================================*/
+@media (max-width: 768px) {
+  .col-lg-3.col-sm-3.team-box{
+    width: 100%;
+  }
 }
