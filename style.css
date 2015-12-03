@@ -65,6 +65,7 @@ li.current > a::before{
 /*=============================================*/
 .green-btn{
   background-color: #669910;
+  border: none;
 }
 .red-btn{
   background-color: #881122;
@@ -228,6 +229,18 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
   color: #424031;
   border: 1px solid rgba(66, 64, 49, 0.1);
 }
+/*=================================================*/
+/* Resources */
+/*=================================================*/
+.resources{
+  padding-top: 200px;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+.resources{
+  padding-bottom: 90px;
+}
+
 /*==============================================*/
 /* Footer */
 /*==============================================*/
