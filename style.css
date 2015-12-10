@@ -60,6 +60,12 @@ li.current > a::before{
 .navbar-inverse .navbar-nav>li.current>a{
   color: #669910;
 }
+ul.nav > li.current_page_item.current > a:before{
+  background: #669910;
+}
+.navbar-inverse .navbar-nav ul.sub-menu li:hover > a, .navbar-inverse .navbar-nav ul.sub-menu li.link-focus > a{
+  color: #669910;
+}
 /*=============================================*/
 /* Intro */
 /*=============================================*/
