@@ -134,6 +134,9 @@ ul.nav > li.current_page_item.current > a:before{
 .lightest-brown-text{
   color: #c7c3b7;
 }
+.about-us .big-intro{
+  font-size: 56px;
+}
 /*===============================================*/
 /* Portfolio/Team Box */
 /*===============================================*/
