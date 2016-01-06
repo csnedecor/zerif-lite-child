@@ -40,7 +40,7 @@ a:hover, a:focus, a:active{
   color: #424031;
 }
 .section-header .section-legend{
-  color: #a09e92;
+  color: #7b775e;
 }
 button, input[type="button"], input[type="reset"], input[type="submit"]{
   background-color: #881122;
@@ -86,7 +86,7 @@ ul.nav > li.current_page_item.current > a:before{
 /* Services/Focus */
 /*====================================*/
 .focus-box p{
-  color: #a09e92;
+  color: #7b775e;
 }
 .focus-box .service-icon{
   border: 10px solid #e2e3e7;
