@@ -1,5 +1,5 @@
 <?php
-// Template Name: Resources
+// Template Name: Web Hosting
     get_header();
 ?>
 
