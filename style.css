@@ -2,7 +2,7 @@
  Theme Name:   Zerif Lite Child
  Description:  Zerif Lite Child Theme
  Author:       Cori Snedecor
- Author URI:   http://corisnedecor.net
+ Author URI:   http://maine-websites.com
  Template:     zerif-lite
  Version:      1.0.0
  License:      GNU General Public License v2 or later
@@ -40,7 +40,7 @@ a:hover, a:focus, a:active{
   color: #424031;
 }
 .section-header .section-legend{
-  color: #a09e92;
+  color: #7b775e;
 }
 button, input[type="button"], input[type="reset"], input[type="submit"]{
   background-color: #881122;
@@ -58,6 +58,12 @@ li.current > a::before{
   background: #669910;
 }
 .navbar-inverse .navbar-nav>li.current>a{
+  color: #669910;
+}
+ul.nav > li.current_page_item.current > a:before{
+  background: #669910;
+}
+.navbar-inverse .navbar-nav ul.sub-menu li:hover > a, .navbar-inverse .navbar-nav ul.sub-menu li.link-focus > a{
   color: #669910;
 }
 /*=============================================*/
@@ -80,7 +86,7 @@ li.current > a::before{
 /* Services/Focus */
 /*====================================*/
 .focus-box p{
-  color: #a09e92;
+  color: #7b775e;
 }
 .focus-box .service-icon{
   border: 10px solid #e2e3e7;
@@ -127,6 +133,9 @@ li.current > a::before{
 }
 .lightest-brown-text{
   color: #c7c3b7;
+}
+.about-us .big-intro{
+  font-size: 56px;
 }
 /*===============================================*/
 /* Portfolio/Team Box */
@@ -265,6 +274,9 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 @media (max-width: 768px) {
   .col-lg-3.col-sm-3.team-box{
     width: 100%;
+  }
+  .resources{
+    padding-top: 100px;
   }
 }
 @media (max-width: 992px) {
