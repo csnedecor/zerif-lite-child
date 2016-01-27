@@ -147,16 +147,16 @@
 <?php wp_footer(); ?>
 
 <script type="text/javascript">
-function downloadJSAtOnload() {
-var element = document.createElement("script");
-element.src = "/wp-includes/js/jquery/jquery.js?ver=1.11.3";
-document.body.appendChild(element);
-}
-if (window.addEventListener)
-window.addEventListener("load", downloadJSAtOnload, false);
-else if (window.attachEvent)
-window.attachEvent("onload", downloadJSAtOnload);
-else window.onload = downloadJSAtOnload;
+  function downloadJSAtOnload() {
+  var element = document.createElement("script");
+  element.src = "/wp-includes/js/jquery/jquery.js?ver=1.11.3";
+  document.body.appendChild(element);
+  }
+  if (window.addEventListener)
+  window.addEventListener("load", downloadJSAtOnload, false);
+  else if (window.attachEvent)
+  window.attachEvent("onload", downloadJSAtOnload);
+  else window.onload = downloadJSAtOnload;
 </script>
 
 </body>
