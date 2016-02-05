@@ -184,7 +184,7 @@ jQuery(document).ready(function(){
             if (target.length) {
                 jQuery('html,body').animate({
                     scrollTop: target.offset().top - headerHeight + 10
-                }, 1200);
+                }, 400);
                 return false;
             }
         }
@@ -205,7 +205,7 @@ jQuery(document).ready(function(){
         if (target.length) {
             jQuery('html,body').animate({
                 scrollTop: target.offset().top - headerHeight + 10
-            }, 1200);
+            }, 400);
             return false;
         }
     }
