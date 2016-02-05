@@ -333,6 +333,30 @@ h3.package-price{
   color: white;
   font-weight: bold;
 }
+.basic-features{
+  border: 1px solid #e2e3e7;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+.basic-features h3{
+  background-color: #424031;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.basic-features ul{
+  list-style: none;
+  margin-left: 0px;
+}
+.basic-features li{
+  float: left;
+}
+.basic-features li:before{
+  content:"\2713\0020"
+}
 
 /*==============================================*/
 /* Footer */
@@ -378,5 +402,11 @@ h3.package-price{
 @media (max-width: 992px) {
   #client-feedbacks .feedback-box{
     width: 100%;
+  }
+  .basic-feat-1 ul{
+    margin-bottom: 0px;
+  }
+  .basic-features li{
+    float: none;
   }
 }

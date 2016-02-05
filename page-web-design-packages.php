@@ -25,6 +25,25 @@
 
         </div><!-- /.section-header -->
 
+          <?php
+            $basic_features_column_1   = get_field('basic_features_column_1');
+            $basic_features_column_2   = get_field('basic_features_column_2');
+            $standard_menu      = get_field('standard_menu');
+            $premium_menu      = get_field('premium_menu');
+          ?>
+
+          <?php if(!empty($basic_features_column_1)) : ?>
+            <div class="row basic-features" data-scrollreveal="enter left after 0.15s over 1s">
+                <h3>Basic Features</h3>
+                <div class="col-md-6 basic-feat-1">
+                  <?php echo $basic_features_column_1; ?>
+                </div><!-- /.col-md-6 .basic-feat-1 -->
+                <div class="col-md-6">
+                  <?php echo $basic_features_column_2; ?>
+                </div><!-- /.col-md-6 -->
+              </div><!-- /.row .basic-features -->
+          <?php endif; ?>
+
       <div class="row row-eq-height">
 
         <!-- PACKAGE PRICING -->
