@@ -1,4 +1,7 @@
 <?php
+// =========================================
+// Enqueue child theme scripts and styles
+// =========================================
 
 add_action( 'wp_enqueue_scripts', 'child_theme_enqueue_scripts', 10 );
 function child_theme_enqueue_scripts() {
@@ -50,4 +53,23 @@ function zerif_child_register_widgets() {
             )
         );
 }
+
+// ====================================================
+// Change Front page contact form success message
+// ====================================================
+add_filter('grunion_contact_form_success_message', function( $message ) {
+
+ ob_start();
+
+ ?>
+<div class="notification success">
+    <p>Thank you for reaching out! Your email was sent successfully.</p>
+</div>
+<p><a href="/#contact">Go back</a></p>
+
+ <?php
+
+ return ob_get_clean();// or $message for default notice
+
+});
 ?>

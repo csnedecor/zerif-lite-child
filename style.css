@@ -267,6 +267,14 @@ a.btn.btn-primary.custom-button.red-btn{
 }
 .custom-contact-form h3{
   color: white;
+  font-family: 'Roboto', 'sans-serif';
+}
+.custom-contact-form a{
+  color: white;
+  font-weight: bold;
+}
+.custom-contact-form a:hover{
+  color: #adcd81;
 }
 .custom-contact-form label{
   width: 100%;
@@ -279,6 +287,22 @@ a.btn.btn-primary.custom-button.red-btn{
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea{
   color: #424031;
   border: 1px solid rgba(66, 64, 49, 0.1);
+}
+.form-error{
+  border-radius: 10px;
+  background-color: #A80018;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+ul.form-errors{
+  text-align: left;
+}
+ul.form-errors li.form-error-message{
+  color: white;
+}
+.contact-us .success p{
+  background: #669910;
 }
 /*=================================================*/
 /* Resources and Packages */
