@@ -249,6 +249,33 @@ a.btn.btn-primary.custom-button.red-btn{
 .contact-us{
   background: rgba(66, 64, 49, 0.5);
 }
+.custom-contact-form input[type='text'],
+.custom-contact-form input[type='email']{
+  width: 100%;
+}
+.custom-contact-form textarea{
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+  padding: 9px;
+  min-height: 250px;
+  height: 250px;
+  padding-left: 15px;
+  display: inline-block;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, .95)
+}
+.custom-contact-form h3{
+  color: white;
+}
+.custom-contact-form label{
+  width: 100%;
+  float: left;
+  height: 1px;
+}
+.custom-contact-form input[type="submit"]{
+  float: right;
+}
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea{
   color: #424031;
   border: 1px solid rgba(66, 64, 49, 0.1);
