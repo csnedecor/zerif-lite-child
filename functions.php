@@ -72,4 +72,9 @@ add_filter('grunion_contact_form_success_message', function( $message ) {
  return ob_get_clean();// or $message for default notice
 
 });
+
+/* Register primary menu */
+register_nav_menus(array(
+    'footer' => __('Footer Menu', 'zerif-lite'),
+));
 ?>

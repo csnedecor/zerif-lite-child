@@ -126,18 +126,17 @@
               echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_dribbble).'"><i class="fa fa-dribbble"></i></a></li>';
             endif;
             echo '</ul>';
-          endif;
+          endif; ?>
 
+          <?php wp_nav_menu( array('theme_location' => 'footer', 'container' => false, 'menu_class' => 'terms-link')); ?>
 
-          if( !empty($zerif_copyright) ):
-            echo esc_attr($zerif_copyright);
-          endif;
+          <?php if( !empty($zerif_copyright) ): ?>
+            <div class="zerif-copyright-box"><?php echo esc_attr($zerif_copyright); ?></div>
+          <?php endif; ?>
 
-          echo '<div class="zerif-copyright-box">© 2015 Cori Snedecor</div>';
+          </div>
 
-          echo '</div>';
-
-    endif;
+    <?php endif;
   ?>
 
 </div> <!-- / END CONTAINER -->

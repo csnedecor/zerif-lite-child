@@ -251,10 +251,10 @@ a.btn.btn-primary.custom-button.red-btn{
 }
 .custom-contact-form input[type='text'],
 .custom-contact-form input[type='email']{
-  width: 100%;
+  width: 100%!important;
 }
 .custom-contact-form textarea{
-  width: 100%;
+  width: 100%!important;
   text-align: left;
   text-transform: none;
   padding: 9px;
@@ -304,6 +304,7 @@ ul.form-errors li.form-error-message{
 .contact-us .success p{
   background: #669910;
 }
+
 /*=================================================*/
 /* Resources and Packages */
 /*=================================================*/
@@ -522,6 +523,20 @@ h3.red-border{
 }
 .fa{
   font-size: 34px;
+}
+ul.terms-link{
+  list-style: none;
+  margin-left: 0;
+}
+ul.terms-link li{
+  display: inline;
+}
+.terms-link,
+.terms-link a{
+  color: #669900;
+}
+.terms-link a:hover{
+  color: #83b538;
 }
 /*==============================================*/
 /* Pages */
