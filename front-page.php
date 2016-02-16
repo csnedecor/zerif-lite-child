@@ -320,9 +320,11 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
           elseif (is_active_sidebar('sidebar-jetpackcontactus') ) : ?>
 
             <!-- CONTACT FORM-->
-            <div class="custom-contact-form" id="custom-contact-form">
-                <?php dynamic_sidebar( 'sidebar-jetpackcontactus' ); ?>
-            </div>
+            <div class="row">
+              <div class="custom-contact-form" id="custom-contact-form">
+                  <?php dynamic_sidebar( 'sidebar-jetpackcontactus' ); ?>
+              </div>
+            </div><!-- /.row -->
 
             <?php
               $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
