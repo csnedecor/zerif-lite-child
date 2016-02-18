@@ -31,14 +31,14 @@ var callback_mobile_dropdown = function () {
 
     var navLi = jQuery('#site-navigation li');
 
+    jQuery('.dropdownmenu').click(function(){
+        jQuery(this).parent('li').toggleClass('this-open');
+    });
     navLi.each(function(){
         if ( jQuery(this).find('ul').length > 0 && !jQuery(this).hasClass('has_children') ){
             jQuery(this).addClass('has_children');
             jQuery(this).find('a').first().after('<p class="dropdownmenu"></p>');
         }
-    });
-    jQuery('.dropdownmenu').click(function(){
-        jQuery(this).parent('li').addClass('this-open');
     });
 
     navLi.find('a').click(function(){
