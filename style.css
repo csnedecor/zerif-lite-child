@@ -308,7 +308,7 @@ ul.form-errors li.form-error-message{
 /*=================================================*/
 /* Resources and Packages */
 /*=================================================*/
-.resources, .design-packages{
+.resources, .design-packages, .maintenance-packages{
   padding-top: 200px;
   overflow: hidden;
   background: #FFFFFF;
@@ -400,6 +400,9 @@ h3.package-price{
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: rgba(66, 64, 49, 0.1);
+}
+h3.package-price a{
+  font-size: 24px;
 }
 .package-content{
   margin-top: 50px;
@@ -493,6 +496,13 @@ h3.red-border{
   padding-bottom: 78px;
 }
 /*===============================================*/
+/* Maintenance Packages Page*/
+/*===============================================*/
+.maintenance-box{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+/*===============================================*/
 /* Request a Quote Form */
 /*===============================================*/
 .request-quote label.grunion-checkbox-multiple-label{
@@ -545,6 +555,19 @@ ul.terms-link li{
   font-size: 16px;
   font-family: 'Roboto', 'sans-serif';
 }
+.entry-title{
+  padding-bottom: 10px;
+  line-height: 40px;
+  position: relative;
+  display: inline-block;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.widget .widget-title:before{
+  background: #669910;
+}
 /*===========================================*/
 /* Responsive Styles */
 /*=============================================*/
@@ -552,7 +575,9 @@ ul.terms-link li{
   .col-lg-3.col-sm-3.team-box{
     width: 100%;
   }
-  .resources, .design-packages{
+  .resources,
+  .design-packages,
+  .maintenance-packages{
     padding-top: 100px;
   }
   .row-eq-height{
@@ -572,6 +597,9 @@ ul.terms-link li{
   }
   .design-menu-wrap .design-menu-list:last-child{
     margin-left: 0px;
+  }
+  .maintenance-box{
+    margin-top: 50px;
   }
 }
 @media (max-width: 992px) {
