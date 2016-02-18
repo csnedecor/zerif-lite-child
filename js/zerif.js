@@ -38,11 +38,7 @@ var callback_mobile_dropdown = function () {
         }
     });
     jQuery('.dropdownmenu').click(function(){
-        if( jQuery(this).parent('li').hasClass('this-open') ){
-            jQuery(this).parent('li').removeClass('this-open');
-        }else{
-            jQuery(this).parent('li').addClass('this-open');
-        }
+        jQuery(this).parent('li').addClass('this-open');
     });
 
     navLi.find('a').click(function(){
