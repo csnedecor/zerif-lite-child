@@ -596,9 +596,12 @@ article .entry-meta a,
 .comment-metadata a{
   color: #7b775e;
 }
+.entry-title a:hover{
+  color: #669910;
+}
 .entry-title:before,
 .entry-title:after{
-  background: #669910;
+  visibility: hidden;
 }
 .entry-footer a:hover{
   color: #adcd81;
@@ -611,6 +614,9 @@ article .entry-meta a,
 }
 .comment-reply-link{
   border-color: #669910;
+}
+.comment-list li{
+  background-color: rgba(0, 0, 0, 0.05);
 }
 .entry-title, .entry-title a, .widget-title, .widget-title a{
   color: #424031;
