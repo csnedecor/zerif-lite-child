@@ -601,7 +601,8 @@ article .entry-meta a,
 }
 .entry-title:before,
 .entry-title:after{
-  visibility: hidden;
+  position: relative;
+  background: #669910;
 }
 .entry-footer a:hover{
   color: #adcd81;
@@ -666,3 +667,4 @@ article .entry-meta a,
     float: none;
   }
 }
+
