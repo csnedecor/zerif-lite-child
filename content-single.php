@@ -16,6 +16,13 @@
 
   </header><!-- .entry-header -->
 
+  <!-- Featured image -->
+  <?php if (has_post_thumbnail()) : ?>
+    <div class="featured-image">
+      <?php the_post_thumbnail('post-thumbnail-large'); ?>
+    </div><!-- /.featured-image -->
+  <?php endif; ?>
+
   <div class="entry-content">
 
     <?php
