@@ -554,6 +554,7 @@ ul.terms-link{
 }
 ul.terms-link li{
   display: inline;
+  margin-left: 5px;
 }
 ul.terms-link li:first-child:before{
   content: "";
@@ -640,6 +641,12 @@ article .entry-meta a,
 }
 .featured-image{
   margin-bottom: 60px;
+}
+/*============================================*/
+/* Blog */
+/*=============================================*/
+h2.entry-subtitle{
+  font-size: 18px;
 }
 /*===========================================*/
 /* Responsive Styles */
