@@ -555,6 +555,12 @@ ul.terms-link{
 ul.terms-link li{
   display: inline;
 }
+ul.terms-link li:first-child:before{
+  content: "";
+}
+ul.terms-link li:before{
+  content: "\007C \0020";
+}
 .terms-link,
 .terms-link a{
   color: #669900;
@@ -621,6 +627,19 @@ article .entry-meta a,
 }
 .entry-title, .entry-title a, .widget-title, .widget-title a{
   color: #424031;
+}
+.blog.entry-content h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.blog.entry-content h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+.featured-image{
+  margin-bottom: 60px;
 }
 /*===========================================*/
 /* Responsive Styles */

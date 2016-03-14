@@ -23,7 +23,7 @@
     </div><!-- /.featured-image -->
   <?php endif; ?>
 
-  <div class="entry-content">
+  <div class="blog entry-content">
 
     <?php
       the_content();
