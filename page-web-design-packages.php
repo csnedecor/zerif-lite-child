@@ -33,6 +33,7 @@
             <?php the_content(); ?>
           <?php endwhile; ?>
         </div><!-- /.section-legend -->
+
       </div><!-- /.section-header -->
 
 
@@ -61,7 +62,7 @@
               <?php endif; ?>
             </div><!-- /.package-title -->
 
-            <h3 class="package-price"><?php echo $package_price; ?></h3>
+            <h3 class="package-price">$<?php echo $package_price; ?></h3>
             <div class="package-content">
               <?php the_content(); ?>
             </div><!-- /.package-content -->

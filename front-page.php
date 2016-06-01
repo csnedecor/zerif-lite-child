@@ -321,9 +321,9 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
             <!-- CONTACT FORM-->
             <div class="row">
-                <div class="custom-contact-form" id="custom-contact-form">
-                    <?php dynamic_sidebar( 'sidebar-jetpackcontactus' ); ?>
-                </div>
+              <div class="custom-contact-form" id="custom-contact-form">
+                  <?php dynamic_sidebar( 'sidebar-jetpackcontactus' ); ?>
+              </div>
             </div><!-- /.row -->
 
             <?php

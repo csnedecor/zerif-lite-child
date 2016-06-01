@@ -646,9 +646,12 @@ article .entry-meta a,
 .featured-image{
   margin-bottom: 60px;
 }
+<<<<<<< HEAD
 .consultation-guide p.contact-submit input[type="submit"]{
   float: right;
 }
+=======
+>>>>>>> 0942953327b3e10145208dcb618435be7f0d2b8a
 /*============================================*/
 /* Blog */
 /*=============================================*/
@@ -700,3 +703,4 @@ h2.entry-subtitle{
     float: none;
   }
 }
+
