@@ -62,7 +62,7 @@
               <?php endif; ?>
             </div><!-- /.package-title -->
 
-            <h3 class="package-price">$<?php echo $package_price; ?></h3>
+            <h3 class="package-price"><?php echo $package_price; ?></h3>
             <div class="package-content">
               <?php the_content(); ?>
             </div><!-- /.package-content -->
@@ -98,43 +98,6 @@
       </div>
     </div>
   </div>
-
-  <!-- ============================================= -->
-  <!-- BASIC FEATURES MODAL -->
-  <!-- ============================================== -->
-
-  <div class="modal fade" id="the-basics" tabindex="-1" role="dialog" aria-labelledby="the-basics">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content dark-modal">
-        <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-        <section class="basic-features">
-          <div class="modal-header">
-            <div class="section-header">
-              <h2><?php echo $basic_features_title ?></h2>
-              <div class="section-legend">
-                <?php echo $basic_features_caption ?>
-              </div><!-- /.section-legend -->
-            </div><!-- /.section-header -->
-          </div><!-- /.modal-header -->
-
-          <div class="modal-body">
-            <?php if(!empty($basic_features_column_1)) : ?>
-              <div class="clearfix" id="basic-features">
-                <div class="col-md-6 basic-feat-1">
-                  <?php echo $basic_features_column_1; ?>
-                </div><!-- /.col-md-6 .basic-feat-1 -->
-                <div class="col-md-6">
-                  <?php echo $basic_features_column_2; ?>
-                </div><!-- /.col-md-6 -->
-              </div><!-- /.row .basic-features -->
-            <?php endif; ?>
-          </div><!-- /.modal-body -->
-        </section><!-- /#basic-features.basic-features -->
-
-      </div><!-- /.modal-content.dark-modal -->
-    </div><!-- /.modal-dialog .modal-lg -->
-  </div><!-- /.modal-fade #the-basics -->
 
   <!-- =================================================== -->
   <!-- SECOND CALL TO ACTION BUTTON -->
