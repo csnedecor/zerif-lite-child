@@ -317,9 +317,34 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
               echo do_shortcode('[pirate_forms]');
             echo '</div>';
 
-          else:
-          ?>
+          elseif (is_active_sidebar('sidebar-jetpackcontactus') ) : ?>
+
             <!-- CONTACT FORM-->
+            <div class="row">
+                <div class="custom-contact-form" id="custom-contact-form">
+                    <?php dynamic_sidebar( 'sidebar-jetpackcontactus' ); ?>
+                </div>
+            </div><!-- /.row -->
+
+            <?php
+              $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+
+              if (strpos($url,'contact-form-sent') !== false) {
+            ?>
+                <script>
+                  jQuery(window).load(function(event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({
+                      scrollTop: jQuery("#custom-contact-form").offset().top
+                    }, 600);
+                  });
+                </script>
+            <?php
+              }
+            ?>
+
+          <?php else : ?>
             <div class="row">
 
               <?php
@@ -412,6 +437,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
             </div>
 
             <!-- / END CONTACT FORM-->
+
           <?php
           endif;
           ?>
@@ -419,8 +445,6 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
         </div> <!-- / END CONTAINER -->
 
       </section> <!-- / END CONTACT US SECTION-->
-      <?php
-    endif;
+      <?php endif; ?>
 
-}
-get_footer(); ?>
+<? } get_footer(); ?>
