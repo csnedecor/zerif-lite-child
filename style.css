@@ -344,7 +344,8 @@ ul.form-errors li.form-error-message{
 .design-packages{
   padding-bottom: 78px;
 }
-.design-package-box:nth-child(3n+2) li:before,
+.maintenance-packages .design-package-box li:before,
+.design-packages .design-package-box:nth-child(3n+2) li:before,
 #basic-features li:before{
     content:"\2713\0020";
 }
@@ -352,8 +353,8 @@ ul.form-errors li.form-error-message{
 .design-package-box:nth-child(3n+3){
   background-color: #bad7f8;
 }
-.design-package-box:nth-child(3n+1) li:before,
-.design-package-box:nth-child(3n+3) li:before{
+.design-packages .design-package-box:nth-child(3n+1) li:before,
+.design-packages .design-package-box:nth-child(3n+3) li:before{
   content: "\2610  "
 }
 .design-package-box:nth-child(3n+1){
@@ -646,12 +647,9 @@ article .entry-meta a,
 .featured-image{
   margin-bottom: 60px;
 }
-<<<<<<< HEAD
 .consultation-guide p.contact-submit input[type="submit"]{
   float: right;
 }
-=======
->>>>>>> 0942953327b3e10145208dcb618435be7f0d2b8a
 /*============================================*/
 /* Blog */
 /*=============================================*/
